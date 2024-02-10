@@ -25,7 +25,7 @@ function TripleInputComponent({ onAdd }) {
 
   return (
     <div className="triple-input-component">
-      <h2 className="form-title">Add New Economic Impact</h2> {/* Title added here */}
+      <h2 className="form-title">New Economic Impact</h2> {/* Title added here */}
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="eventName">Event Name:</label>

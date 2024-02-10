@@ -6,8 +6,15 @@
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+
+  .triple-input-component {
+    background-image: url('../../assets/stock-vector-abstract-financial-chart-with-uptrend-line-graph-and-numbers-in-stock-market-on-gradient-white-687485104.jpg'); /* Adjust the path as needed */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding if needed */
+  }
+  
   
   .triple-input-component form div {
     margin-bottom: 20px;
