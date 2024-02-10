@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Economic Impacts of Sports Events</h1>
+      {/* <h1>Economic Impacts of Sports Events</h1> */}
       <TripleInputComponent onAdd={addEconomicImpact} />
       <ul>
         {economicImpacts.map((impact, index) => (
