@@ -1,0 +1,97 @@
+/* input.css */
+.triple-input-component form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .triple-input-component {
+    background-image: url('../../assets/stock-vector-abstract-financial-chart-with-uptrend-line-graph-and-numbers-in-stock-market-on-gradient-white-687485104.jpg'); /* Adjust the path as needed */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding if needed */
+  }
+  
+  
+  .triple-input-component form div {
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  /* Add this to your input.css for the title styling */
+.triple-input-component .form-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  
+  .triple-input-component label {
+    display: block;
+    margin-bottom: 10px;
+    color: #606f7b;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .triple-input-component input[type="text"],
+  .triple-input-component input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 12px 10px;
+    border: 2px solid #000000; /* Black borders */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+  
+  .triple-input-component input[type="text"]:focus,
+  .triple-input-component input[type="number"]:focus {
+    border-color: #a29bfe;
+    outline: none;
+  }
+  
+  .triple-input-component button[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #6366f1;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .triple-input-component button[type="submit"]:hover {
+    background-color: #4f46e5;
+    transform: translateY(-2px);
+  }
+  
+  .triple-input-component button[type="submit"]:active {
+    transform: translateY(1px);
+  }
+  
+  .triple-input-component input::placeholder {
+    color: #b2becd;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .triple-input-component input:focus::placeholder {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  
